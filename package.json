@@ -6,7 +6,8 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
-    "socket.io-client": "^3.0.4"
+    "socket.io-client": "^3.0.4",
+    "systeminformation": "^4.33.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
