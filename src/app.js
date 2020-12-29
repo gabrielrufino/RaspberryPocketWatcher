@@ -1,13 +1,13 @@
-const io = require('socket.io-client')
+const status = require('./listeners/status')
 
 module.exports = {
   start: () => {
-    const { SERVER_URL } = process.env
-
-    const socket = io(`${SERVER_URL}?client=watcher`)
+    const { socket } = require('./services/server')
 
     socket.on('connect', () => {
       console.log('Conectado')
     })
+
+    socket.on('request:status', status)
   }
 }
