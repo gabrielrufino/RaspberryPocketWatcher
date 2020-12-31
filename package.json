@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
+    "shelljs": "^0.8.4",
     "socket.io-client": "^3.0.4",
     "systeminformation": "^4.33.5"
   },
