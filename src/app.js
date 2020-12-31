@@ -1,3 +1,4 @@
+const restart = require('./listeners/restart')
 const status = require('./listeners/status')
 
 module.exports = {
@@ -9,5 +10,6 @@ module.exports = {
     })
 
     socket.on('request:status', status)
+    socket.on('request:workflow:restart', restart)
   }
 }
