@@ -1,0 +1,31 @@
+{
+  "name": "raspberry-pocket-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "shelljs": "^0.8.4",
+    "socket.io-client": "^3.0.4",
+    "systeminformation": "^4.33.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielrufino/RaspberryPocketWatcher.git"
+  },
+  "author": "Gabriel Rufino <contato@gabrielrufino.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielrufino/RaspberryPocketWatcher/issues"
+  },
+  "homepage": "https://github.com/gabrielrufino/RaspberryPocketWatcher#readme"
+}
