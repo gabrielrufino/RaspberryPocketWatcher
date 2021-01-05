@@ -8,7 +8,7 @@
     "dotenv": "^8.2.0",
     "shelljs": "^0.8.4",
     "socket.io-client": "^3.0.4",
-    "systeminformation": "^4.33.6"
+    "systeminformation": "^4.33.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
